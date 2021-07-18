@@ -6,8 +6,7 @@
  */
 
 #pragma once
-#include "hyendOS/hyend_os.h"
-#include "systems/systemUtils.h"
+#include "OSUserInclude.h"
 #include "dataMap.h"
 
 typedef struct {

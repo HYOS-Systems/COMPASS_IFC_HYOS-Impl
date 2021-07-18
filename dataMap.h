@@ -6,7 +6,7 @@
  */
 
 #pragma once
-#include "hyendOS/hyend_os.h"
+#include "OSUserInclude.h"
 
 #define data_size 53
 
