@@ -5,7 +5,7 @@
  *      Author: Bayram
  */
 
-#include "systems/compass/ifc/ifc.h"
+#include "ifc.h"
 
 IFC_PeripheralStruct *ifc_struct;
 

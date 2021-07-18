@@ -5,8 +5,8 @@
  *      Author: Bayram
  */
 
-#include "systems/compass/ifc/ifc_types.h"
-#include "systems/compass/ifc/ifc_DataHandling.h"
+#include "ifc_types.h"
+#include "ifc_DataHandling.h"
 
 void IFC_BOARD_init(IFC_PeripheralStruct *ifc_PeripheralStruct);
 void IFC_BOARD_tick(void);

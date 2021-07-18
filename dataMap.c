@@ -5,7 +5,7 @@
  *      Author: Bayram
  */
 
-#include "systems/compass/ifc/dataMap.h"
+#include "dataMap.h"
 
 union {
 	uint16_t i;

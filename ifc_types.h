@@ -8,7 +8,7 @@
 #pragma once
 #include "hyendOS/hyend_os.h"
 #include "systems/systemUtils.h"
-#include "systems/compass/ifc/dataMap.h"
+#include "dataMap.h"
 
 typedef struct {
 #ifdef __STM32_UART_PERIPHERAL

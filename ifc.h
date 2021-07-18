@@ -7,7 +7,7 @@
 
 #pragma once
 
-#include "systems/compass/ifc/ifc_types.h"
-#include "systems/compass/ifc/ifc_board.h"
+#include "ifc_types.h"
+#include "ifc_board.h"
 
 void IFC_init(IFC_PeripheralStruct* ifc_PeripheralStruct);

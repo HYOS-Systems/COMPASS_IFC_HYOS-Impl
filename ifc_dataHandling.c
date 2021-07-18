@@ -5,7 +5,7 @@
  *      Author: Bayram
  */
 
-#include "systems/compass/ifc/ifc_dataHandling.h"
+#include "ifc_dataHandling.h"
 
 typedef struct {
 	MCU_STATUS mcuStatus;
@@ -105,7 +105,7 @@ void IFC_DH_canHandle(CANBus *bus) {
 	case REQUEST_DATA: // From GSE
 		CANI_interpretRequestDataMessage(ifcDataHandling.busIR, &ifcDataHandling.reqDataMessageGSE);
 		if(ifcDataHandling.reqDataMessageGSE.dataID1 == IFC_STATUS){
-			uint8_t test = 1;
+//			uint8_t test = 1;
 		}
 		IFC_DH_reactOnRequest();
 		break;
